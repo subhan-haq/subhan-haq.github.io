@@ -1,0 +1,38 @@
+
+.landscape{
+    transition:transform 0.25s ease;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 30%;
+}
+
+.landscape:hover{
+    -webkit-transform:scale(2); 
+    transform:scale(2);
+}
+
+.portrait{
+    transition:transform 0.25s ease;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 20%;
+}
+
+.portrait:hover{
+    -webkit-transform:scale(2); 
+    transform:scale(2);
+}
+
+.imgCap{
+    text-align: center;
+}
+
+a{
+    background-color:gold;
+}
