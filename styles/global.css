@@ -1,0 +1,33 @@
+body{
+    background-color: #e1ffe6;
+}
+
+.header {
+    margin: 0px;
+    padding: 0px;
+    height: 60;
+    background-color: #4cbd5f;
+
+}
+
+.header-list {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.header-button {
+    background-color: #4cbd5f;
+    width: 140px;
+    height: 60px;
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+    border: solid white 4px;
+    margin-left: -4px;
+}
+
+.header-button:hover {
+    background-color: #a0fcb0;
+}

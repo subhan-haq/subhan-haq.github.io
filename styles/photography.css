@@ -1,0 +1,49 @@
+
+.landscape{
+    transition:transform 0.25s ease;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    width: 60%;
+}
+
+.landscape:hover{
+    -webkit-transform:scale(2); 
+    transform:scale(2);
+}
+
+.portrait{
+    transition:transform 0.25s ease;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    width: 40%;
+}
+
+.portrait:hover{
+    -webkit-transform:scale(2); 
+    transform:scale(2);
+}
+
+.imgCap{
+    color: white    ;
+    background-color: #4cbd5f;
+    width: 400px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 25px;
+}
+
+#all{
+    display: grid;
+    grid-template-columns: 1000px 1000px;
+    margin-bottom: 100px;
+}
+
+.test {
+    margin: 50px auto;
+}
