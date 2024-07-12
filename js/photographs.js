@@ -2,22 +2,22 @@ const pics = [
     {
         caption: "Signal Hill's Hill Top View",
         class: "landscape",
-        image: "../photography/IMG_0666.jpg",
+        image: "photography/IMG_0666.jpg",
     },
     {
         caption: "Bowring Park Winter Sky",
         class: "landscape",
-        image: "../photography/IMG_0949.jpg",
+        image: "photography/IMG_0949.jpg",
     },
     {
         caption: "Puffin Sculptures at the Botanical Ceneter",
         class: "portrait",
-        image: "../photography/IMG_0717.jpg",
+        image: "photography/IMG_0717.jpg",
     },
     {
         caption: "Illuminated Tree",
         class: "portrait",
-        image: "../photography/IMG_1005.jpg",
+        image: "photography/IMG_1005.jpg",
     },
 ];
 

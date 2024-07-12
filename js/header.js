@@ -1,26 +1,26 @@
 const options = [
   {
-    ref: "../html/index.html",
+    ref: "index.html",
     id: "home-button",
     text: "Home",
   },
   {
-    ref: "../html/projects.html",
+    ref: "projects.html",
     id: "projects-button",
     text: "Projects",
   },
   {
-    ref: "../html/photography.html",
+    ref: "photography.html",
     id: "photography-button",
     text: "Photography",
   },
   {
-    ref: "../html/anime.html",
+    ref: "anime.html",
     id: "anime-button",
     text: "Anime & Manga",
   },
   {
-    ref: "../html/games.html",
+    ref: "games.html",
     id: "games-button",
     text: "Games",
   },
