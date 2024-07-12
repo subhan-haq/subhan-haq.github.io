@@ -1,6 +1,6 @@
 const options = [
   {
-    ref: "../html/homepage.html",
+    ref: "../html/index.html",
     id: "home-button",
     text: "Home",
   },
