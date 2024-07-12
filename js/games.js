@@ -39,7 +39,7 @@ for (let post of games){
     allPosts += `
     <div class="post">
         <img class="post-pics" src="${post.image}" />
-        <div class="post-desc">${post.desc}</p>
+        <div class="post-desc">${post.desc}</div>
     </div>`;
 }
 post.innerHTML = allPosts;

@@ -2,15 +2,32 @@ body{
     background-color: #e1ffe6;
 }
 
-.header {
+#logo-header{
+    clear: both;
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+
+#logo{
     margin: 0px;
-    padding: 0px;
+    color: white;
+    text-shadow: 0px 0px 16px black;
+    margin-left: 25px;
+}
+
+.header {
     height: 60;
     background-color: #4cbd5f;
-
+    display: grid;
+    grid-template-columns: 33% 34% 33%;
+    box-shadow: 0px 0px 1px black;
 }
 
 .header-list {
+    margin: 0px;
+    padding: 0px;
+    height: 60;
     list-style-type: none;
     display: flex;
     flex-direction: row;
@@ -26,8 +43,17 @@ body{
     font-weight: bolder;
     border: solid white 4px;
     margin-left: -4px;
+    text-shadow: 0px 0px 8px black;
 }
 
 .header-button:hover {
     background-color: #a0fcb0;
+}
+
+.spoiler {
+    background-color: black;
+}
+
+.spoiler:hover{
+    background-color: #e1ffe6;
 }

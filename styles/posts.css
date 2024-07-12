@@ -1,5 +1,8 @@
 #margins {
-    height: 100px;
+    margin: 50px 500px;
+    border-radius: 15px;
+    height: 200px;
+    background: linear-gradient(to bottom right, #b3ffc0, #acfdfd);
 }
 
 .post {
@@ -14,14 +17,6 @@
     height: 300px;
     padding: 0px 75px;
     margin-left: auto;
-}
-
-.spoiler {
-    background-color: black;
-}
-
-.spoiler:hover{
-    background-color: #e1ffe6;
 }
 
 .post-desc {

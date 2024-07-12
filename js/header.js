@@ -28,22 +28,27 @@ const options = [
 
 let allOptions = `
   <header class="header">
-    <ul class="header-list">`;
+    <div id="logo-header">
+      <h1 id="logo">Subhan Haq's Website</h1>
+    </div>
+    <div>
+      <ul class="header-list">`;
 
 for (let option of options) {
     allOptions += `
-      <li class="list-item">
-        <a href="${option.ref}">
-          <button class="header-button" id="${option.id}" type="button">
-            ${option.text}
-          </button>
-        </a>
-      </li>
+        <li class="list-item">
+          <a href="${option.ref}">
+            <button class="header-button" id="${option.id}" type="button">
+              ${option.text}
+            </button>
+          </a>
+        </li>
 `;
 }
 
 allOptions += `
-    </ul>
+      </ul>
+    </div>
   </header>
   `;
 

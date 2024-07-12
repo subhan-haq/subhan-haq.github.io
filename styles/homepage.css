@@ -1,10 +1,37 @@
+#margins{
+  height: 125px;
+}
+
+#luffy-div{
+  display: grid;
+  grid-template-columns: 300px;
+  margin-left: auto;
+  padding: 0px 75px;
+}
+
+#caption {
+  text-align: center;
+  border-radius: 8px;
+  background-color: #4cbd5f;
+  color: white;
+  text-shadow: 0px 0px 4px black;
+}
+
+#wrap{
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
 #luffy {
     width: 300px;
-    border-radius: 50px;
-    float: left;
-    margin-right: 20px;
+    border-radius: 50px;  
   }
 
 #about-me {
   width: 1000px;
+  margin: none 25px;
+  border-radius: 15px;
+  height: 200px;
+  background: linear-gradient(to bottom right, #b3ffc0, #acfdfd);
+  padding: 10px;
 }
