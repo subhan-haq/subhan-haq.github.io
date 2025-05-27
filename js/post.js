@@ -1,5 +1,5 @@
-const games = [
-    {
+const posts = [
+    [{
         image: "images/hollow-knight.jpg",
         desc: "Hollow Knight",
     },
@@ -14,11 +14,8 @@ const games = [
     {
         image: "images/yu-gi-oh.jpg",
         desc: "Yu-gi-oh",
-    },
-];
-
-const shows = [
-    {
+    },],
+    [{
         image: "../images/dragon-ball.jpg",
         desc: "Dragon Ball",
     },
@@ -33,12 +30,12 @@ const shows = [
     {
         image: "../images/yu-yu-hakusho.webp",
         desc: "Yu Yu Hakusho",
-    },
-];
+    },]
+]
 
-function myPosts(posts){
+export default function myPosts(i){
     let allPosts = ``;
-    for (let post of posts){
+    for (let post of posts[i]){
         allPosts += `
         <div class="post">
             <img class="post-pics" src="${post.image}" />

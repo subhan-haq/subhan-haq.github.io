@@ -1,31 +1,97 @@
 #margins {
-    margin: 50px 500px;
-    border-radius: 15px;
-    height: 200px;
-    background: linear-gradient(to bottom right, #b3ffc0, #acfdfd);
+  margin: 3rem 10vw; 
+  border-radius: 15px;
+  height: 12rem; 
+  max-height: 50vh; 
+  background: linear-gradient(to bottom right, #b3ffc0, #acfdfd);
 }
 
 .post {
-    margin: 25px 0px;
-    padding: 35px 0px;
-    height: 300px;
-    display: grid;
-    grid-template-columns: 900px 1000px;    
+  margin: 1.5rem 0; 
+  padding: 2rem 0; 
+  height: auto; 
+  min-height: 18rem; 
+  display: grid;
+  grid-template-columns: 1fr 1.2fr; 
+  gap: 1.5rem;
+  max-width: 90vw; 
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .post-pics {
-    height: 300px;
-    padding: 0px 75px;
-    margin-left: auto;
+  height: auto;
+  min-height: 18rem; 
+  max-height: 40vh; 
+  padding: 0 4rem; 
+  margin-left: auto;
+  display: flex;
+  align-items: center; 
 }
 
 .post-desc {
-    background-color: #b3ffc0;
-    padding: 15px;
-    border-radius: 15px;
-    font-size: 18px;
+  background-color: #b3ffc0;
+  padding: 1rem; 
+  border-radius: 15px;
+  font-size: 1.1rem; 
+  line-height: 1.6; 
 }
 
-p{
-    display: inline;
+p {
+  display: inline;
+}
+
+
+@media (max-width: 768px) {
+  #margins {
+    margin: 2rem 5vw;
+    height: 10rem;
+    max-height: 40vh;
+  }
+
+  .post {
+    grid-template-columns: 1fr; 
+    gap: 1rem;
+    margin: 1rem 0;
+    padding: 1.5rem 0;
+    min-height: 15rem;
+  }
+
+  .post-pics {
+    padding: 0 2rem;
+    min-height: 15rem;
+    max-height: 30vh;
+  }
+
+  .post-desc {
+    padding: 0.8rem;
+    font-size: 1rem;
+  }
+}
+
+
+@media (max-width: 480px) {
+  #margins {
+    margin: 1.5rem 3vw;
+    height: 8rem;
+    max-height: 30vh;
+  }
+
+  .post {
+    gap: 0.8rem;
+    margin: 0.8rem 0;
+    padding: 1rem 0;
+    min-height: 12rem;
+  }
+
+  .post-pics {
+    padding: 0 1rem;
+    min-height: 12rem;
+    max-height: 25vh;
+  }
+
+  .post-desc {
+    padding: 0.6rem;
+    font-size: 0.9rem;
+  }
 }

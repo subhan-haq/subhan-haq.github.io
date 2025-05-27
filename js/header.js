@@ -31,7 +31,7 @@ let allOptions = `
     <div id="logo-header">
       <h1 id="logo">Subhan Haq's Website</h1>
     </div>
-    <div>
+    <nav>
       <ul class="header-list">`;
 
 for (let option of options) {
@@ -48,7 +48,7 @@ for (let option of options) {
 
 allOptions += `
       </ul>
-    </div>
+    </nav>
   </header>
   `;
 
